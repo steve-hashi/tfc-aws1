@@ -9,10 +9,10 @@ resource "aws_instance" "example" {
   vpc_security_group_ids = [aws_security_group.instance_sg.id]
 }
 
-resource "aws_key_pair" "example" {
-  key_name   = "my-key-pair"
-  public_key = file("/Users/sspeiche/.ssh/id_ed25519.pub")
-}
+#resource "aws_key_pair" "example" {
+ # key_name   = "my-key-pair"
+#  public_key = file("/Users/sspeiche/.ssh/id_ed25519.pub")
+#}
 
 resource "aws_security_group" "instance_sg" {
   name        = "instance_sg"
