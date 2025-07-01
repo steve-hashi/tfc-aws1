@@ -9,3 +9,7 @@ output "public_ip" {
 output "instance_state" {
   value = aws_instance.example.instance_state
 }
+
+output "state" {
+  value = aws_ec2_instance_state.example.state
+}

@@ -11,7 +11,6 @@ This project provides a Terraform configuration to provision an AWS EC2 instance
 ## Project Structure
 
 ```
-terraform-aws-ec2
 ├── main.tf          # Main configuration for provisioning the EC2 instance
 ├── variables.tf     # Input variables for the Terraform configuration
 ├── outputs.tf       # Output values after infrastructure creation
